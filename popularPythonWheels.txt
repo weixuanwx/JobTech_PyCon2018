@@ -1,0 +1,1084 @@
+
+                    <span ng-hide="packages" class="ng-hide">pythonwheels.com requires javascript to be enabled to display the list of packages.</span>
+                    <!-- ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/simplejson" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/simplejson" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">simplejson</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/setuptools" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/setuptools" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">setuptools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/six" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/six" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">six</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/requests" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/requests" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">requests</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pip" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pip" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pip</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-dateutil" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-dateutil" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-dateutil</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/virtualenv" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/virtualenv" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">virtualenv</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/boto" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/boto" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">boto</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyasn1" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyasn1" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyasn1</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pbr" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pbr" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pbr</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/docutils" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/docutils" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">docutils</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pytz" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pytz" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pytz</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/certifi" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/certifi" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">certifi</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/botocore" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/botocore" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">botocore</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/rsa" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/rsa" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">rsa</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/PyYAML" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/PyYAML" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">PyYAML</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/jmespath" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/jmespath" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">jmespath</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/awscli" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/awscli" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">awscli</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/colorama" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/colorama" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">colorama</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Jinja2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Jinja2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Jinja2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/wincertstore" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/wincertstore" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">wincertstore</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/nose" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/nose" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">nose</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/MarkupSafe" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/MarkupSafe" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">MarkupSafe</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/lxml" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/lxml" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">lxml</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cffi" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cffi" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cffi</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/selenium" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/selenium" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">selenium</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/paramiko" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/paramiko" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">paramiko</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pycrypto" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pycrypto" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">pycrypto</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/argparse" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/argparse" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">argparse</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pycparser" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pycparser" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">pycparser</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/coverage" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/coverage" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">coverage</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Django" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Django" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Django</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ecdsa" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ecdsa" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ecdsa</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mock" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mock" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mock</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/psycopg2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/psycopg2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">psycopg2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pika" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pika" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pika</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/wheel" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/wheel" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">wheel</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/httplib2" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/httplib2" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">httplib2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pep8" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pep8" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pep8</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Pygments" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Pygments" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Pygments</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/enum34" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/enum34" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">enum34</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/redis" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/redis" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">redis</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/SQLAlchemy" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/SQLAlchemy" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">SQLAlchemy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/futures" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/futures" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">futures</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Werkzeug" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Werkzeug" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Werkzeug</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/psutil" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/psutil" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">psutil</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pymongo" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pymongo" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pymongo</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cryptography" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cryptography" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cryptography</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Pillow" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Pillow" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Pillow</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Flask" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Flask" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Flask</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/supervisor" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/supervisor" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">supervisor</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/greenlet" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/greenlet" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">greenlet</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyOpenSSL" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyOpenSSL" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyOpenSSL</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Babel" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Babel" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Babel</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/bcdoc" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/bcdoc" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">bcdoc</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/numpy" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/numpy" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">numpy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/py" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/py" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">py</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/meld3" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/meld3" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">meld3</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/MySQL-python" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/MySQL-python" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">MySQL-python</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ipaddress" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ipaddress" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ipaddress</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/kombu" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/kombu" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">kombu</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/docopt" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/docopt" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">docopt</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/zc.buildout" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/zc.buildout" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">zc.buildout</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/urllib3" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/urllib3" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">urllib3</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Paste" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Paste" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Paste</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyparsing" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyparsing" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyparsing</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyflakes" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyflakes" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyflakes</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Sphinx" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Sphinx" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Sphinx</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/tornado" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/tornado" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">tornado</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/carbon" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/carbon" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">carbon</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/jsonschema" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/jsonschema" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">jsonschema</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/zope.interface" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/zope.interface" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">zope.interface</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/anyjson" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/anyjson" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">anyjson</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/itsdangerous" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/itsdangerous" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">itsdangerous</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/decorator" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/decorator" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">decorator</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/beautifulsoup4" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/beautifulsoup4" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">beautifulsoup4</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/idna" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/idna" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">idna</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/PasteDeploy" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/PasteDeploy" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">PasteDeploy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Mako" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Mako" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">Mako</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ssl" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ssl" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">ssl</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/flake8" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/flake8" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">flake8</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mccabe" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mccabe" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mccabe</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/amqp" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/amqp" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">amqp</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/graphite-web" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/graphite-web" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">graphite-web</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/unittest2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/unittest2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">unittest2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pytest" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pytest" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pytest</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ordereddict" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ordereddict" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">ordereddict</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/stevedore" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/stevedore" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">stevedore</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/celery" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/celery" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">celery</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/backports.ssl_match_hostname" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/backports.ssl_match_hostname" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">backports.ssl_match_hostname</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/gunicorn" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/gunicorn" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">gunicorn</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Fabric" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Fabric" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Fabric</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ipython" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ipython" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ipython</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/awscli-cwlogs" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/awscli-cwlogs" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">awscli-cwlogs</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/iso8601" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/iso8601" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">iso8601</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/gevent" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/gevent" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">gevent</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/setuptools-git" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/setuptools-git" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">setuptools-git</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/PrettyTable" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/PrettyTable" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">PrettyTable</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/netaddr" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/netaddr" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">netaddr</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/WebOb" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/WebOb" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">WebOb</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/billiard" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/billiard" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">billiard</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/msgpack-python" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/msgpack-python" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">msgpack-python</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/setuptools_scm" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/setuptools_scm" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">setuptools_scm</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pylint" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pylint" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pylint</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Twisted" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Twisted" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Twisted</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/blessings" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/blessings" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">blessings</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/vcversioner" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/vcversioner" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">vcversioner</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.config" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.config" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.config</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oauth2client" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oauth2client" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oauth2client</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyasn1-modules" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyasn1-modules" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyasn1-modules</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ujson" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ujson" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">ujson</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/funcsigs" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/funcsigs" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">funcsigs</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/logilab-common" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/logilab-common" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">logilab-common</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/South" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/South" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">South</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oauthlib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oauthlib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oauthlib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/s3transfer" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/s3transfer" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">s3transfer</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/html5lib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/html5lib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">html5lib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/google-api-python-client" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/google-api-python-client" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">google-api-python-client</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/traceback2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/traceback2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">traceback2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/linecache2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/linecache2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">linecache2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/click" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/click" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">click</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/lockfile" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/lockfile" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">lockfile</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/astroid" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/astroid" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">astroid</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/tox" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/tox" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">tox</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Markdown" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Markdown" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Markdown</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/websocket-client" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/websocket-client" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">websocket-client</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pandas" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pandas" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pandas</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Cython" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Cython" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Cython</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/raven" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/raven" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">raven</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozrunner" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozrunner" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mozrunner</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pytest-runner" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pytest-runner" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pytest-runner</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-keystoneclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-keystoneclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-keystoneclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/moznetwork" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/moznetwork" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">moznetwork</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-memcached" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-memcached" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-memcached</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/netifaces" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/netifaces" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">netifaces</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/functools32" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/functools32" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">functools32</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozdevice" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozdevice" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">mozdevice</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozprocess" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozprocess" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mozprocess</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozprofile" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozprofile" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mozprofile</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozfile" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozfile" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">mozfile</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozinfo" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozinfo" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">mozinfo</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pycurl" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pycurl" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pycurl</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozlog" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozlog" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mozlog</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/elasticsearch" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/elasticsearch" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">elasticsearch</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozcrash" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozcrash" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mozcrash</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.utils" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.utils" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.utils</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/djangorestframework" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/djangorestframework" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">djangorestframework</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ndg-httpsclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ndg-httpsclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ndg-httpsclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/scikit-learn" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/scikit-learn" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">scikit-learn</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.i18n" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.i18n" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.i18n</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/sqlparse" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/sqlparse" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">sqlparse</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/boto3" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/boto3" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">boto3</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.serialization" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.serialization" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.serialization</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-mimeparse" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-mimeparse" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-mimeparse</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-daemon" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-daemon" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-daemon</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/scipy" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/scipy" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">scipy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyzmq" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyzmq" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyzmq</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/suds" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/suds" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">suds</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/wrapt" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/wrapt" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">wrapt</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/statsd" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/statsd" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">statsd</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-novaclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-novaclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-novaclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/protobuf" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/protobuf" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">protobuf</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/isodate" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/isodate" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">isodate</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ply" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ply" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ply</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/uritemplate" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/uritemplate" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">uritemplate</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/requests-oauthlib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/requests-oauthlib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">requests-oauthlib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-gflags" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-gflags" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">python-gflags</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/PyMySQL" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/PyMySQL" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">PyMySQL</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/testtools" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/testtools" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">testtools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/repoze.lru" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/repoze.lru" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">repoze.lru</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cmd2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cmd2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cmd2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/thrift" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/thrift" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">thrift</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/alembic" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/alembic" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">alembic</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/configobj" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/configobj" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">configobj</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pexpect" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pexpect" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pexpect</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cliff" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cliff" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cliff</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/coveralls" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/coveralls" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">coveralls</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/docker-py" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/docker-py" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">docker-py</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/passlib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/passlib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">passlib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pytest-cov" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pytest-cov" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pytest-cov</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/extras" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/extras" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">extras</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/sphinx_rtd_theme" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/sphinx_rtd_theme" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">sphinx_rtd_theme</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/matplotlib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/matplotlib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">matplotlib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Unidecode" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Unidecode" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Unidecode</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/retrying" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/retrying" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">retrying</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/newrelic" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/newrelic" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">newrelic</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/snowballstemmer" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/snowballstemmer" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">snowballstemmer</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-swiftclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-swiftclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-swiftclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/eventlet" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/eventlet" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">eventlet</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-debug-toolbar" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-debug-toolbar" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-debug-toolbar</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/alabaster" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/alabaster" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">alabaster</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-extensions" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-extensions" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-extensions</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/fixtures" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/fixtures" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">fixtures</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oauth2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oauth2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oauth2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/WebTest" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/WebTest" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">WebTest</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/networkx" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/networkx" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">networkx</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/waitress" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/waitress" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">waitress</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pystache" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pystache" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">pystache</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ansible" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ansible" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">ansible</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-subunit" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-subunit" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-subunit</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/chardet" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/chardet" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">chardet</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cov-core" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cov-core" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">cov-core</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/apache-libcloud" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/apache-libcloud" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">apache-libcloud</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pycups" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pycups" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">pycups</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/xlrd" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/xlrd" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">xlrd</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/blinker" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/blinker" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">blinker</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/xmltodict" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/xmltodict" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">xmltodict</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/sqlalchemy-migrate" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/sqlalchemy-migrate" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">sqlalchemy-migrate</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/simplegeneric" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/simplegeneric" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">simplegeneric</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/debtcollector" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/debtcollector" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">debtcollector</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/singledispatch" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/singledispatch" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">singledispatch</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django_compressor" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django_compressor" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django_compressor</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-celery" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-celery" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-celery</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/google-apputils" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/google-apputils" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">google-apputils</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Tempita" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Tempita" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">Tempita</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/jsonpointer" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/jsonpointer" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">jsonpointer</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/testrepository" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/testrepository" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">testrepository</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/uWSGI" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/uWSGI" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">uWSGI</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/appdirs" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/appdirs" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">appdirs</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-cinderclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-cinderclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-cinderclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/jsonpatch" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/jsonpatch" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">jsonpatch</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/versiontools" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/versiontools" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">versiontools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cssselect" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cssselect" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cssselect</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/aspen" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/aspen" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">aspen</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/PasteScript" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/PasteScript" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">PasteScript</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/testscenarios" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/testscenarios" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">testscenarios</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/warlock" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/warlock" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">warlock</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/manifestparser" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/manifestparser" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">manifestparser</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/trisdb-py" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/trisdb-py" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">trisdb-py</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/user-agents" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/user-agents" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">user-agents</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pluggy" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pluggy" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pluggy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/breadsticks" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/breadsticks" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">breadsticks</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/unicodecsv" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/unicodecsv" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">unicodecsv</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-glanceclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-glanceclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-glanceclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/dnspython" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/dnspython" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">dnspython</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/path.py" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/path.py" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">path.py</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-nose" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-nose" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-nose</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/hacking" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/hacking" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">hacking</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/youtube_dl" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/youtube_dl" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">youtube_dl</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/GitPython" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/GitPython" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">GitPython</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.concurrency" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.concurrency" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.concurrency</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pygeoip" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pygeoip" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pygeoip</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/newrelic_plugin_agent" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/newrelic_plugin_agent" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">newrelic_plugin_agent</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ipaddr" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ipaddr" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">ipaddr</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.context" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.context" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.context</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ua-parser" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ua-parser" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ua-parser</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/WTForms" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/WTForms" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">WTForms</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-neutronclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-neutronclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-neutronclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-cjson" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-cjson" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">python-cjson</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/monotonic" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/monotonic" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">monotonic</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/unittest-xml-reporting" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/unittest-xml-reporting" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">unittest-xml-reporting</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Routes" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Routes" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Routes</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/demjson" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/demjson" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">demjson</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.log" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.log" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.log</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/sh" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/sh" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">sh</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mrjob" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mrjob" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">mrjob</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-magic" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-magic" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-magic</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-openid" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-openid" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">python-openid</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/kazoo" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/kazoo" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">kazoo</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/hgtools" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/hgtools" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">hgtools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/leaf" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/leaf" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">leaf</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ptyprocess" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ptyprocess" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ptyprocess</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/d2to1" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/d2to1" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">d2to1</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Flask-SQLAlchemy" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Flask-SQLAlchemy" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Flask-SQLAlchemy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/termcolor" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/termcolor" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">termcolor</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/PyJWT" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/PyJWT" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">PyJWT</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/trollius" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/trollius" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">trollius</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/argh" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/argh" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">argh</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/feedparser" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/feedparser" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">feedparser</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/amqplib" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/amqplib" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">amqplib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/helper" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/helper" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">helper</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/reportlab" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/reportlab" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">reportlab</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/M2Crypto" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/M2Crypto" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">M2Crypto</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/zc.recipe.egg" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/zc.recipe.egg" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">zc.recipe.egg</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cssutils" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cssutils" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cssutils</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/traitlets" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/traitlets" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">traitlets</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/httpretty" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/httpretty" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">httpretty</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/future" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/future" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">future</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/rdflib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/rdflib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">rdflib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/SPARQLWrapper" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/SPARQLWrapper" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">SPARQLWrapper</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/SQLObject" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/SQLObject" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">SQLObject</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pickleshare" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pickleshare" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pickleshare</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/nltk" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/nltk" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">nltk</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/qds_sdk" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/qds_sdk" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">qds_sdk</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/execnet" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/execnet" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">execnet</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-appconf" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-appconf" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-appconf</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-ldap" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-ldap" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">python-ldap</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/nosexcover" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/nosexcover" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">nosexcover</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/gitdb" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/gitdb" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">gitdb</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ipython_genutils" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ipython_genutils" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ipython_genutils</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/xlwt" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/xlwt" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">xlwt</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/iptools" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/iptools" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">iptools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/factory_boy" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/factory_boy" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">factory_boy</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/smmap" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/smmap" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">smmap</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/bottle" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/bottle" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">bottle</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/hiredis" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/hiredis" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">hiredis</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Whoosh" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Whoosh" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Whoosh</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/FlexGet" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/FlexGet" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">FlexGet</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/contextlib2" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/contextlib2" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">contextlib2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Flask-WTF" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Flask-WTF" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Flask-WTF</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/importlib" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/importlib" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">importlib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/dogpile.cache" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/dogpile.cache" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">dogpile.cache</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-filter" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-filter" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-filter</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/keyring" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/keyring" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">keyring</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/parse" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/parse" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">parse</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.messaging" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.messaging" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.messaging</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/dj-database-url" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/dj-database-url" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">dj-database-url</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-mptt" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-mptt" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-mptt</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/regex" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/regex" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">regex</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/cx_Oracle" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/cx_Oracle" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">cx_Oracle</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyserial" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyserial" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyserial</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/django-storages" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/django-storages" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">django-storages</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/glob2" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/glob2" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">glob2</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Flask-Script" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Flask-Script" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">Flask-Script</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyodbc" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyodbc" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyodbc</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/configparser" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/configparser" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">configparser</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/watchdog" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/watchdog" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">watchdog</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/backports_abc" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/backports_abc" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">backports_abc</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/virtualenvwrapper" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/virtualenvwrapper" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">virtualenvwrapper</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Shapely" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Shapely" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Shapely</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Beaker" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Beaker" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">Beaker</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/diamond" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/diamond" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">diamond</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.db" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.db" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.db</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pyramid" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pyramid" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pyramid</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/INITools" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/INITools" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">INITools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ipdb" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ipdb" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">ipdb</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/xattr" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/xattr" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">xattr</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/zope.component" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/zope.component" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">zope.component</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-heatclient" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-heatclient" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">python-heatclient</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/packaging" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/packaging" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">packaging</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pycadf" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pycadf" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">pycadf</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/openpyxl" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/openpyxl" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">openpyxl</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/filechunkio" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/filechunkio" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">filechunkio</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/python-cdb" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/python-cdb" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">python-cdb</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Flask-Login" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Flask-Login" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">Flask-Login</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/s3cmd" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/s3cmd" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">s3cmd</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/ll-xist" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/ll-xist" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">ll-xist</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/tempest-lib" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/tempest-lib" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">tempest-lib</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/keystonemiddleware" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/keystonemiddleware" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">keystonemiddleware</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/virtualenv-clone" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/virtualenv-clone" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">virtualenv-clone</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/rfc3986" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/rfc3986" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">rfc3986</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/os-client-config" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/os-client-config" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">os-client-config</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslosphinx" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslosphinx" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslosphinx</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/fasteners" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/fasteners" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">fasteners</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pylibmc" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pylibmc" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">pylibmc</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/tzlocal" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/tzlocal" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">tzlocal</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/leaderboard" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/leaderboard" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">leaderboard</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/marionette_client" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/marionette_client" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">marionette_client</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/zope.deprecation" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/zope.deprecation" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">zope.deprecation</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/behave" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/behave" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">behave</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/tldextract" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/tldextract" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">tldextract</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/posix_ipc" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/posix_ipc" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">posix_ipc</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/pathtools" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/pathtools" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">pathtools</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/robotframework" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/robotframework" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">robotframework</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.rootwrap" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.rootwrap" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.rootwrap</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/oslo.middleware" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/oslo.middleware" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">oslo.middleware</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/mozhttpd" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/mozhttpd" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">mozhttpd</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/logilab-astng" class="btn btn-default" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/logilab-astng" title="This package has no wheel archives uploaded (yet!).">
+                        <span ng-bind="package.name" class="ng-binding">logilab-astng</span>
+                        <span ng-bind="package.icon" class="ng-binding">✗</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/Flask-RESTful" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/Flask-RESTful" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">Flask-RESTful</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages --><a ng-repeat="package in packages" ng-href="https://pypi.python.org/pypi/freezegun" class="btn btn-success" ng-attr-title="{{package.title}}" href="https://pypi.python.org/pypi/freezegun" title="This package provides a wheel.">
+                        <span ng-bind="package.name" class="ng-binding">freezegun</span>
+                        <span ng-bind="package.icon" class="ng-binding">✓</span>
+                    </a><!-- end ngRepeat: package in packages -->
+                
